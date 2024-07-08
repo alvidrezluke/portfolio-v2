@@ -10,7 +10,7 @@ lazy_static! {
         return match Tera::new("templates/**/*.html") {
             Ok(t) => t,
             Err(e) => {
-                error!("Parsing error(s): {}", e);
+                error!("Critical parsing error(s): {}", e);
                 ::std::process::exit(1);
             }
         }
