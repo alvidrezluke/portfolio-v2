@@ -1,0 +1,10 @@
+{
+  "portfolio_data": [
+    {
+      "image": "portfolio.png",
+      "title": "test title",
+      "text": "test text",
+      "technologies": ["test 1", "test 2"]
+    }
+  ]
+}
